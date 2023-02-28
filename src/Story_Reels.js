@@ -17,14 +17,14 @@ function Story_Reels() {
            <Story
             image="https://expertphotography.b-cdn.net/wp-content/uploads/2011/06/how-to-take-good-pictures-model-shoot.jpg"
             profileSrc="https://images.unsplash.com/photo-1615022702095-ff2c036f3360?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW5kaWFuJTIwZ2lybHxlbnwwfHwwfHw%3D&w=1000&q=80"
-            title="Monika"
+            title="Harshita"
             />
 
             {/* Story */}
             <Story 
             image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ29WBfIwEqIdTycOP40sCwyZEVAQpYHRNxLDqeDck8BO_LjtGvXMZr-QQdiGYRu7VxuU&usqp=CAU"
             profileSrc="https://avatars3.githubusercontent.com/u/30196405?s=460&u=6bd3c8280b827a0ea3f661fc7c0c65117b19bc61&v=4"
-            title="Kunal"
+            title="Sumit Soni"
             />
 
             {/* Story */}
