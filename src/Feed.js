@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import "./Feed.css";
-import Story_Reels from './Story_Reels';
+import story_Reels from './Story_Reels';
 import Message from './Message';
 import Posts from './Posts';
 import db from './firebase';
@@ -17,7 +17,7 @@ function Feed() {
 
     return (
         <div className="feed">
-            <Story_Reels/>
+            <story_Reels/>
             <Message/>
             {posts.map((post) => (
             <Posts

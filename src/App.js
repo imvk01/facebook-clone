@@ -1,52 +1,35 @@
-import React from 'react';
-import './App.css';
-import Header from './Header';
-import Sidebar from './SideBar';
-import Feed from './Feed';
-import Widgets from './Widgets';
-import Login from './Login';
-import { useStateValue } from './StateProvider';
+import React from "react";
+import "./App.css";
+import Header from "./Header";
+import Sidebar from "./SideBar";
+import Feed from "./Feed";
+import Widgets from "./Widgets";
+import Login from "./Login";
+import { useStateValue } from "./StateProvider";
+
 
 function App() {
-
-  
-  // here we are using React Context API
-
-
-  // enterning user info
-  const[{user}, dispatch] = useStateValue();
+  const [{ user }] = useStateValue();
 
   return (
-
-    // we are using BEM Naming Convention for user auth
-
     <div className="Facebook-clone">
-
       {!user ? (
-        <Login/>
+        <Login />
       ) : (
-
         <>
-
-        {/* Header Section */}
-        {/* In Header Section we need Search icon right of FB logo (using Material UI)*/}
-        <Header/>
-
-        <div className="body">
-          {/* SideBar */}
-          <Sidebar />
-          {/* Feed */}
-          <Feed />
-          {/* Widgets */}
-          <Widgets/>
-
-        </div>
+          {/* Header Section */}
+          {/* In Header Section we need Search icon right of FB logo (using Material UI)*/}
+          <Header />
+          <div className="body">
+            {/* SideBar */}
+            <Sidebar />
+            {/* Feed */}
+            <Feed />
+            {/* Widgets */}
+            <Widgets />
+          </div>
         </>
-
-      )} 
-
-            
-          
+      )}
     </div>
   );
 }
